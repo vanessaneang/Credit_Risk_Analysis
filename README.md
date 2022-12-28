@@ -43,5 +43,6 @@ This model has the highest accuracy score overall, with a 91.7% accuracy score. 
 
 
 ## Summary 
+Overall most of the models had an accuracy score of 60% indicating that they can predict the credit risk at a moderate rate, but the main problem for many of the models is being sensitive to the high risk loans. This means that many lenders would give high risk loans to borrowers that should not be receiving these loans. If a less accurate model needs to be used than for low risk loans than the Naive Random Sampling should do, but if we need one that will be more sensitive for the high risk loans than it would be good to use the other ensemble classifier, the BalancedRandomForestClassifier.
 
 In conclusion the EasyEnsembleClassifier seems to be the best predictor for both high and low risk loan, the accuracy score is 91.7% making it the most accurate machine learning model out of the six examined. The sensitivity for this model is high for both types of loans meaing that there is very minimal false readings. For the client it is better to have minimal false readings since it will reduce the amount of loans given to the wrong type of lenders. This will allow lenders to predict what type of borrowers to give out loans with minimal error of who will reveive high risk and low risk loans. 
